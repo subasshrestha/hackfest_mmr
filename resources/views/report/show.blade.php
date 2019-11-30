@@ -9,7 +9,7 @@
      <img src='/{{$image}}' width='500px'/> 
      @endforeach
      <br>
-            <a href='{{ route('report.edit',$report->id) }}' >Edit</a>
+            <a href='{{ route('report.edit',$report->id)}}' >Edit</a>
     </div>
           
           

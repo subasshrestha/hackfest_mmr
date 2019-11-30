@@ -97,7 +97,7 @@ class ReportController extends Controller
      */
     public function update(StoreReport $request, $id)
     {
-
+        // return redirect('/home');
     }
 
     /**

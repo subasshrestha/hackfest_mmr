@@ -14,7 +14,12 @@
                             </div>
                         @endif
 
-                        You are logged in as hospital!
+                         <span>Your reports</span>
+                    <br>
+
+                    @foreach ($reports as $post)
+                    <a href='{{ route('report.show', $post->id) }}'><ol><li> {{$post->title}}</li> <br></ol>
+                    @endforeach
                     </div>
                 </div>
             </div>
