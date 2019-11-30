@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Hospital;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -14,6 +14,9 @@ class HospitalController extends Controller
      */
     public function index()
     {
+        if(!auth()->user()->hospital()->exists()){
+            return view('hospital.create');
+        }
         return view('hospital.index');
     }
 
@@ -24,7 +27,7 @@ class HospitalController extends Controller
      */
     public function create()
     {
-        //
+        return view('hospital.create');
     }
 
     /**
@@ -35,7 +38,19 @@ class HospitalController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input=$request->all();
+        $filePath=[];
+        $images=$request->file('images');
+        foreach ($images as $image){
+            $filename= time().'_'.implode('_',explode(' ',$image->getClientOriginalName()));
+            $image->move(public_path('images'),$filename);
+            $filename='images/'.$filename;
+            array_push($filePath,$filename);
+        }
+        $input['images']= json_encode($filePath);
+        $input+=['user_id'=>Auth::user()->id];
+        Hospital::create($input);
+        return back()->withStatus(_('Information Successfully Uploaded'));
     }
 
     /**
@@ -47,6 +62,13 @@ class HospitalController extends Controller
     public function show($id)
     {
         //
+        $hospital=Auth::user()->hospital()->find($id);
+        if($report==null)
+        {
+            return redirect('/home');
+        }
+        $hospital['images']=json_decode($hospital['images']);
+        return view('hospital.show')->with('hospital',$hospital);
     }
 
     /**
