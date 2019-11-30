@@ -13,8 +13,12 @@
                                 {{ session('status') }}
                             </div>
                         @endif
+                         <span>Your reports</span>
+                    <br>
 
-                        You are logged in as hospital!
+                    @foreach ($reports as $post)
+                    <a href='{{ route('report.show', $hospital->id) }}'><ol><li> {{$hospital->title}}</li> <br></ol>
+                    @endforeach
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@ class HospitalController extends Controller
      */
     public function create()
     {
-        return view('hospital.create');
+        return view('hospital.create')->with('reports',$hospital);
     }
 
     /**
@@ -42,7 +42,7 @@ class HospitalController extends Controller
         $input=$request->all();
         $filePath=[];
         $images=$request->file('images');
-        foreach ($images as $image){
+        foreach($images as $image){
             $filename= time().'_'.implode('_',explode(' ',$image->getClientOriginalName()));
             $image->move(public_path('images'),$filename);
             $filename='images/'.$filename;

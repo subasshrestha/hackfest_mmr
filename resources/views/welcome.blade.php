@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
+
 @section('content')
+<link href="{{ asset('css/styles1.min.css') }}" rel="stylesheet">
         <div class="flex-center position-ref full-height">
             <div class="content">
                     
