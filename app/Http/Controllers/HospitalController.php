@@ -96,6 +96,15 @@ class HospitalController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    public function showreport($id){
+        $report=Auth::user()->hospital->reports->find($id);
+        if($report==null)
+        {
+            return redirect('/hospital');
+        }
+        $report['images']=json_decode($report['images']);
+        return view('hospital.showreport')->with('report',$report);
+    }
     public function update(Request $request, $id)
     {
         //
