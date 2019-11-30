@@ -15,11 +15,14 @@ class CreateHospitalsTable extends Migration
     {
         Schema::create('hospitals', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title');
-            $table->string('description');
-            $table->longText('images');
+            $table->string("name");
+            $table->string("pan");
+            $table->bigInteger("phone");
+            $table->longText("address");
+            $table->longText("documents");
             $table->bigInteger('user_id');
             $table->timestamps();
+
         });
     }
 
