@@ -7,7 +7,7 @@
                 <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Patient Records</h1>
             </div><table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
 
-                <h4><a href='{{ route('report.create') }}'>Add Reports</a></h4>
+                <h4><a href='{{ route('report.create') }}'><button class="btn btn-primary" type="submit">Add Reports</button></a></h4>
                 <br>
                 
                 <thead>
@@ -18,7 +18,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                        @foreach ($reports as $post)
+                        @foreach ($reports as $post) 
                     
                         
                   <tr>
