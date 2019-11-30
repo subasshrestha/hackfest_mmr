@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::resource('hospital','HospitalController')->middleware(['auth','check.hospital']);
 Route::resource('report','ReportController')->except(['index'])->middleware(['auth','check.user']);
-
+Route::get('hospital/showreport/{id}','HospitalController@showreport')->name('showreport')->middleware(['auth','check.hospital']);
 Route::group(['middleware' => ['auth','check.user']], function () {
     Route::get('home', 'HomeController@index')->name('home');
     // Route::get('viewone/$id','HomeController@show')->name('Your report');
