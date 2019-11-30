@@ -17,9 +17,8 @@ class HospitalController extends Controller
         if(!auth()->user()->hospital()->exists()){
             return view('hospital.create');
         }
-        $users=auth()->user()->hospital->reports;
-        dd($users);
-        return view('hospital.index');
+        $reports=auth()->user()->hospital->reports;
+        return view('hospital.index')->with('reports',$reports);
     }
 
     /**
