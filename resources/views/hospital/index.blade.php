@@ -13,13 +13,12 @@
                                 {{ session('status') }}
                             </div>
                         @endif
+                         <span>Your reports</span>
+                    <br>
 
-                        <span>Your reports</span>
-                        <br>
-
-                        @foreach ($reports as $post)
-                            <a href='{{ route('report.show', $post->id) }}'><ol><li> {{$post->title}}</li> <br></ol>
-                        @endforeach
+                    @foreach ($reports as $post)
+                    <a href='{{ route('report.show', $hospital->id) }}'><ol><li> {{$hospital->title}}</li> <br></ol>
+                    @endforeach
                     </div>
                 </div>
             </div>

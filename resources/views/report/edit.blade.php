@@ -13,16 +13,14 @@
 <body>
     <div class="register-photo">
         <div class="form-container">
-            <form method="post">
-                <h2 class="text-center"><strong>Create</strong> an account.</h2>
-                <div class="form-group"><input class="form-control" type="text" name="uname" placeholder="Name" value=></div>
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <form method="POST" action='{{ route('report.update',$report->id) }}'>
+                <h2 class="text-center"><strong>Edit</strong> your report</h2>
+            <div class="form-group"><input class="form-control" type="text" name="uname" placeholder="Name" value='{{$report->title}}'></div>
+                <div class="form-group"><input class="form-control" type="text" name="description"  value='{{$report->description}}'></div>
 
                 <div class="form-group">
-                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">Sign up as hospital.</label></div>
-                </div>
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(84,213,213);">Sign Up</button></div><a class="already" href="#">You already have an account? Login here.</a></form>
-        </div>
+             </div>
+             <div class="form-group"><button class="btn btn-primary" type="submit">Submit</button></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>

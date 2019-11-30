@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b425c63-fee5-45b7-9c72-fa2e80a4db4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575104477_Screenshot_2019-07-19-22-17-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575105678_Screenshot_2019-07-19-22-17-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575105678_Screenshot_at_2019-06-13_21-36-54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575107709_Screenshot_at_2019-06-05_21-37-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575107876_Screenshot_2019-07-06-08-01-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575107928_Screenshot_2019-07-06-08-01-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575108015_Screenshot_2019-07-19-22-17-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1575108040_Screenshot_2019-07-06-07-40-34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_30_074522_create_hospital_report_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_30_074522_create_hospital_report_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designs/record-patient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575104261_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575105125_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575106046_20181109_192935_020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575106067_20181109_192935_020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575106532_20181109_192935_018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575107696_20181109_192935_018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575107792_20181109_192935_020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575107827_20181109_192935_018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HospitalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HospitalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designs/hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/designs/hospital.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/hospital/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/hospital/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/hospital/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/hospital/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/hospital/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/hospital/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/report/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/report/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/report/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/report/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -62,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/hospital/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -75,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="30" selection-end-line="31" />
+              <caret line="5" column="30" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -167,9 +172,9 @@
         <option value="$PROJECT_DIR$/app/Permission.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_30_074522_create_hospital_report_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/hospital/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/report/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" />
+        <option value="$PROJECT_DIR$/resources/views/hospital/index.blade.php" />
       </list>
     </option>
   </component>
@@ -377,12 +382,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575087459187</updated>
-      <workItem from="1575087460737" duration="18917000" />
+      <workItem from="1575087460737" duration="19027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18917000" />
+    <option name="totallyTimeSpent" value="19027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="-4" width="1364" height="746" extended-state="6" />
@@ -593,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HospitalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042809_create_reports_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -617,14 +615,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="30" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/hospital/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="5" column="30" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -656,6 +647,20 @@
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HospitalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hospital/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
