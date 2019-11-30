@@ -13,8 +13,8 @@ class Hospital extends Model
     {
         return $this->belongsTo('App\User');
     }
-    public function users()
+    public function reports()
     {
-        return $this->belongsToMany('App\User');
+        return $this->belongsToMany('App\Report');
     }
 }
