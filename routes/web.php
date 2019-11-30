@@ -21,4 +21,5 @@ Route::resource('hospital','HospitalController')->middleware(['auth','check.hosp
 
 Route::group(['middleware' => ['auth','check.user']], function () {
     Route::get('home', 'HomeController@index')->name('home');
+    // Route::get('viewone/$id','HomeController@show')->name('Your report');
 });

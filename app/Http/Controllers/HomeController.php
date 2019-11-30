@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Report;
 
 class HomeController extends Controller
 {
@@ -22,7 +23,7 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
-    {
-        return view('home');
+    {   $posts=Report::all();
+        return view('home')->with("posts",$posts);
     }
 }
