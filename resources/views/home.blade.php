@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <a href='/addreport'>Add report</a>
+                    <a href='{{ route('report.create') }}'>Add report</a>
                     <br>
                     
                     <span>Your reports</span>

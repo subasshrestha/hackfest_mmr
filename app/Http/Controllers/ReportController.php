@@ -18,7 +18,7 @@ class ReportController extends Controller
             'images' => 'required',
         ]);
   
-        Product::create($request->all());
+        Report::create($request->all());
    
         return redirect()->route('report.show')
                         ->with('success','Product created successfully.');
