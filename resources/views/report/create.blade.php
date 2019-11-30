@@ -14,7 +14,7 @@
                         @endif
 
                         <div class="contact-clean">
-                                <form method="post">
+                        <form method="POST" action='{{ route('report.store') }}'>
                                     <h2 class="text-center">Report</h2>
                                     <div class="form-group border-dark"><input class="form-control" type="text" name="name" placeholder="Name"></div>
                                     <div class="form-group"><textarea class="form-control" type="text" name="description" placeholder="Description"></textarea></div>

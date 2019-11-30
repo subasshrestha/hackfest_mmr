@@ -26,8 +26,7 @@ class HomeController extends Controller
         $reports=auth()->user()->reports;
         return view('home')->with('reports',$reports);
     }
-    public function create(){
-        
-        return view('report.create');
-    }
+
+   
+    
 }
