@@ -22,6 +22,7 @@ class CreateHospitalReportTable extends Migration
             on('hospitals')->onDelete('cascade');
             $table->foreign('report_id')->references('id')->
             on('reports')->onDelete('cascade');
+            $table->timestamps();
         });
     }
 

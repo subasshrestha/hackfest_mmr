@@ -13,7 +13,6 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-
                          <span>Your reports</span>
                     <br>
 
