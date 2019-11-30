@@ -50,7 +50,7 @@ class ReportController extends Controller
         $input+=['user_id'=>Auth::user()->id];
         Report::create($input);
         // dd($input);
-        return back()->withStatus(_('Report Successfully Uploaded'));
+        return redirect('/home')->withStatus(_('Report Successfully Uploaded'));
         // return redirect('/home');
     }
 

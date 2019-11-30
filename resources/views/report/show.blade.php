@@ -45,11 +45,14 @@
             <br>
             <br>
             Give permission<br>
-            <input type="text" name="email" id="email"><br>
-            <input type="hidden" name="id" value="{{$report->id}}"><br>
-            <div class="form-group"><button class="btn btn-primary" type="submit">Submit</button></div>
-        </form>
-
+            <form method="POST" action='{{ route('givepermission.store') }}' enctype="multipart/form-data">
+                @csrf
+                Give permission<br>
+                <input type="text" name="email" id="email"><br>
+                <input type="hidden" name="id" value="{{$report->id}}"><br>
+                <div class="form-group"><button class="btn btn-primary" type="submit">Submit</button></div>
+            </form>
+            
 
     
           
