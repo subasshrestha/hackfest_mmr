@@ -70,7 +70,7 @@ class ReportController extends Controller
         $doctors=$report->hospitals;
         $report['images']=json_decode($report['images']);
         return view('report.show',[
-            'reports'=>$report,
+            'report'=>$report,
             'doctors'=>$doctors,
         ]);
 
