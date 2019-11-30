@@ -28,7 +28,7 @@ class HospitalController extends Controller
      */
     public function create()
     {
-        return view('hospital.create');
+        return view('hospital.create')->with('reports',$hospital);
     }
 
     /**

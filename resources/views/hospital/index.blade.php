@@ -18,7 +18,7 @@
                     <br>
 
                     @foreach ($reports as $post)
-                    <a href='{{ route('report.show', $post->id) }}'><ol><li> {{$post->title}}</li> <br></ol>
+                    <a href='{{ route('report.show', $hospital->id) }}'><ol><li> {{$hospital->title}}</li> <br></ol>
                     @endforeach
                     </div>
                 </div>
