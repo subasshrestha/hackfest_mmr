@@ -21,7 +21,7 @@
                     <br>
 
                     @foreach ($reports as $post)
-                    <a href='/viewone/{{$post->id}}'> {{$post->title}}
+                    <a href='{{ route('report.show', $post->id) }}'><ol><li> {{$post->title}}</li> <br></ol>
                     @endforeach
                 </div>
             </div>
