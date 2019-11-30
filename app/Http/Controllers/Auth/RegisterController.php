@@ -7,6 +7,7 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
@@ -28,7 +29,16 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    //protected $redirectTo = '/home';
+    protected function redirectTo()
+    {
+        if(Auth::user()->is_hospital){
+            return "/hospital";
+        }
+        else{
+            return "/home";
+        }
+    }
 
     /**
      * Create a new controller instance.
@@ -63,10 +73,12 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $is_hospital=array_key_exists('is_hospital',$data);
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'is_hospital' => $is_hospital,
         ]);
     }
 }
