@@ -14,6 +14,12 @@
                         </div>
                     @endif
 
+                    <a href='/addreport'>Add report</a>
+                    <br>
+                    
+                    <span>Your reports</span>
+                    <br>
+
                     @foreach ($reports as $post)
                     <a href='/viewone/{{$post->id}}'> {{$post->title}}
                     @endforeach
