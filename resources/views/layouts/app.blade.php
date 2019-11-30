@@ -48,7 +48,7 @@
             <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
                     <div class="container">
                         <a class="navbar-brand" href="{{ url('/') }}">
-                            {{ config('app.name', 'Laravel') }}
+                            
                             <h1 style="color: rgb(73,97,122);font-family: 'Alegreya Sans SC', sans-serif;background-color: #fcfcfc;filter: blur(0px) brightness(124%) contrast(106%);height: 59px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mero Medical Report</h1>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
