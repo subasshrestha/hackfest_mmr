@@ -63,9 +63,9 @@ class HospitalController extends Controller
     {
         //
         $hospital=Auth::user()->hospital()->find($id);
-        if($report==null)
+        if($hospital==null)
         {
-            return redirect('/home');
+            return redirect('/hospital');
         }
         $hospital['images']=json_decode($hospital['images']);
         return view('hospital.show')->with('hospital',$hospital);
@@ -79,7 +79,13 @@ class HospitalController extends Controller
      */
     public function edit($id)
     {
-        //
+        $hospital=Auth::user()->hospital()->find($id);
+        if($hospital==null)
+        {
+            return redirect('/hospital');
+        }
+        $hospital['images']=json_decode($hospital['images']);
+        return view('hospital.edit')->with('hospital',$hospital);
     }
 
     /**

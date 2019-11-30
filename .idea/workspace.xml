@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b425c63-fee5-45b7-9c72-fa2e80a4db4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/1575097714_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575097770_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575097821_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575098025_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575098079_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575098263_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1575098306_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hospital/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hospital/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hospital/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Hospital.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Hospital.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HospitalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HospitalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designs/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/report/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/report/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -35,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="29">
+              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
@@ -45,15 +60,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042809_create_reports_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="210">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
@@ -66,60 +90,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/report/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/report/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Hospital.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/hospital/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HospitalController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Hospital.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>report</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,27 +121,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/hospital/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HospitalController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/CheckHospital.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/CheckUser.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/resources/views/report/create.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_30_042809_create_reports_table.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Report.php" />
         <option value="$PROJECT_DIR$/resources/views/report/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/report/show.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_30_065102_create_hospital_user_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_30_065755_create_hospital_user_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_30_070411_create_hospital_report_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_30_071411_create_hospital_report_table.php" />
+        <option value="$PROJECT_DIR$/app/Report.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_30_072132_create_hospital_user_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HospitalController.php" />
+        <option value="$PROJECT_DIR$/app/Hospital.php" />
       </list>
     </option>
   </component>
@@ -281,13 +280,6 @@
             <path>
               <item name="hackfest_mmr" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackfest_mmr" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackfest_mmr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackfest_mmr" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -363,12 +355,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575087459187</updated>
-      <workItem from="1575087460737" duration="5913000" />
+      <workItem from="1575087460737" duration="10581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5913000" />
+    <option name="totallyTimeSpent" value="10581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="-4" width="1364" height="746" extended-state="6" />
@@ -376,7 +368,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.32473445" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.43474963" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3284553" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -395,6 +387,28 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.43474963" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3284553" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -462,27 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042809_create_reports_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HospitalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,31 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Hospital.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -542,27 +518,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/report/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_065102_create_hospital_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="29">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042800_create_hospitals_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_042809_create_reports_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="210">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_065755_create_hospital_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_070411_create_hospital_report_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_071411_create_hospital_report_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_30_072132_create_hospital_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/report/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -573,6 +611,20 @@
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HospitalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Hospital.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
