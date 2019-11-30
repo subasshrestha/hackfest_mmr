@@ -45,8 +45,5 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\Hospital');
     }
-    public function hospitals(){
-        return $this->belongsToMany('App\Hospital');
-    }
 
 }

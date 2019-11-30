@@ -14,13 +14,13 @@
                         @endif
 
                         <div class="contact-clean">
-                        <form method="POST" action='{{ route('report.store') }}'>
+                        <form method="POST" action='{{ route('report.store') }}' enctype="multipart/form-data">
                             @csrf
                                     <h2 class="text-center">Report</h2>
                                     <div class="form-group border-dark"><input class="form-control" type="text" name="title" placeholder="Name"></div>
                                     <div class="form-group"><textarea class="form-control" type="text" name="description" placeholder="Description"></textarea></div>
                                     <div class="form-group"><div class="custom-file" >
-                          <input class="form control" type="file" id="customFile" multiple=true name='images[]'>
+                          <input class="form control" type="file" id="image" multiple='true' name='images[]'>
                                 </div>
                         </div>
                                     <div class="form-group"><button class="btn btn-primary" type="submit">Submit</button></div>
