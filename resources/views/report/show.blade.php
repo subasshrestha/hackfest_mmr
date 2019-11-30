@@ -3,7 +3,7 @@
 @section('content')
 <div class="table-responsive" style="width: 627px;margin-top: 11px;margin-bottom: 0px;margin-left: 68px;">
 <table class="table">
-                <thead>
+                {{-- <thead>
                     <tr>
                         <th style="background-color: #8dbfd5;">&nbsp;User Details</th>
                     </tr>
@@ -18,7 +18,7 @@
                     <tr>
                         <td>&nbsp;</td>
                     </tr>
-                </tbody>
+                </tbody> --}}
             </table>
         </div>
         <div></div>
@@ -41,18 +41,11 @@
                                 @endforeach</tr>
                 </tbody>
             </table>
-            <a href='{{ route('report.edit',$report->id)}}' >Edit</a>
-    </div>
+            <a href='{{ route('report.edit',$report->id)}}' ><button class="btn btn-primary" type="submit">Edit</button></a>
 
-    <br>
-    <form method="POST" action='{{ route('givepermission.store')}}'>
-        @csrf
-        <input type="text" name="email" id="email"><br>
-        <input type="hidden" name="id" id="id" value="{{$report->id}}"><br>
-        <input type="submit" value="Give Permission">
-    </form>
+
+    
           
-          
-        </div>  
+        
 
 @endsection
