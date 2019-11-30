@@ -68,7 +68,7 @@
                                     <input class="form-check-input" type="checkbox" name="is_hospital" id="is_hospital">
 
                                     <label class="form-check-label" for="is_hospital">
-                                        {{ __('Sign up as a hospital') }}
+                                        {{ __('Sign up as a doctor') }}
                                     </label>
                                 </div>
                             </div>
