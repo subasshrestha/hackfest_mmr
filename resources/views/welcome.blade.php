@@ -1,100 +1,70 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
+@section('content')
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                    
+                    <section id="carousel">
+                        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="jumbotron pulse animated hero-nature carousel-hero" style="height: 268px;">
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="jumbotron pulse animated hero-photography carousel-hero">
+                                        <h1 class="hero-title">Hero Photography</h1>
+                                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                                        <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="jumbotron pulse animated hero-technology carousel-hero"></div>
+                                </div>
+                            </div>
+                            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                            <ol
+                                class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                                </ol>
+                        </div>
+                    </section>
+                    <div class="features-clean">
+                        <div class="container">
+                            <div class="intro">
+                                <h2 class="text-center"></h2>
+                            </div>
+                            <div class="row features">
+                                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-map-marker icon"></i>
+                                    <h3 class="name">Works everywhere</h3>
+                                    <p class="description">Can be used by any persnonnel from anywhere.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-clock-o icon"></i>
+                                    <h3 class="name">Always available</h3>
+                                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-list-alt icon"></i>
+                                    <h3 class="name">Customizable</h3>
+                                    <p class="description">Easy to costumize data.Datas can be added edited and removed</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-leaf icon"></i>
+                                    <h3 class="name">Organic</h3>
+                                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-plane icon"></i>
+                                    <h3 class="name">Fast</h3>
+                                    <p class="description">&nbsp;</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-phone icon"></i>
+                                    <h3 class="name">Mobile-first</h3>
+                                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
-    </body>
-</html>
+        @endsection
