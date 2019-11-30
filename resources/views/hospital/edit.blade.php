@@ -1,0 +1,1 @@
+die('edit Hospital details');

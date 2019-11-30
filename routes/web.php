@@ -23,4 +23,5 @@ Route::resource('report','ReportController')->except(['index'])->middleware(['au
 Route::group(['middleware' => ['auth','check.user']], function () {
     Route::get('home', 'HomeController@index')->name('home');
     // Route::get('viewone/$id','HomeController@show')->name('Your report');
+    Route::get('addreport','HomeController@create')->name('Add report');
 });
