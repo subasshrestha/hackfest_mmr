@@ -67,8 +67,12 @@ class ReportController extends Controller
         {
             return redirect('/home');
         }
+        $doctors=$report->hospitals;
         $report['images']=json_decode($report['images']);
-        return view('report.show')->with('report',$report);
+        return view('report.show',[
+            'reports'=>$report,
+            'doctors'=>$doctors,
+        ]);
 
     }
 
