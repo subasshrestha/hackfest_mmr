@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    @foreach ($posts as $post)
+                    @foreach ($reports as $post)
                     <a href='/viewone/{{$post->id}}'> {{$post->title}}
                     @endforeach
                 </div>
