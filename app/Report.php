@@ -14,7 +14,4 @@ class Report extends Model
     {
         return $this->belongsTo('App\User');
     }
-//    public function hospitals(){
-//        return $this->belongsToMany('App\Hospital');
-//    }
 }
