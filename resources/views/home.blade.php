@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in as normal user!
+                    @foreach ($posts as $post)
+                    <a href='/viewone/{{$post->id}}'> {{$post->title}}
+                    @endforeach
                 </div>
             </div>
         </div>
